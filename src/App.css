@@ -1,0 +1,57 @@
+.container {
+  width: 400px;
+  height: 600px;
+  margin: 50px auto;
+}
+.display {
+  height: 150px;
+  text-align: end;
+}
+.buttons {
+  height: 500px;
+  display: grid;
+  grid-template-columns: auto 100px;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.buttonLabel {
+  font-size: xx-large;
+  color: #282c34;
+}
+
+.button-numeric {
+  border: 1px solid #ffffff;
+  background-color: ghostwhite;
+}
+.button-equal,
+.button-clear {
+  border: 1px solid #ffffff;
+  background-color: rgb(248, 212, 212);
+  /* grid-column: 2/4; */
+}
+.button-operator {
+  border: 1px solid #ffffff;
+  background-color: snow;
+}
+
+button:hover {
+  background-color: rgb(217, 222, 230);
+}
+
+.display {
+  display: flex;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: snow;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

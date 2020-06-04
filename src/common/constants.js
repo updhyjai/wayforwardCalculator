@@ -1,0 +1,17 @@
+const OPERATOR = {
+  PLUS: "+",
+  MINUS: "-",
+  MULTIPLY: "x",
+  DIVISION: "/",
+  EQUAL: "=",
+};
+
+const NUMERIC_VALUE = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const OPERATORS = [
+  OPERATOR.PLUS,
+  OPERATOR.MINUS,
+  OPERATOR.MULTIPLY,
+  OPERATOR.DIVISION,
+];
+
+export { OPERATOR, NUMERIC_VALUE, OPERATORS };
